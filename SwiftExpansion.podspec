@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftExpansion'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftExpansion.'
+  s.summary          = 'Various extension for swift foundation'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Swift Foundation is a powerful framework, but in itself is somewhat lacking in describing certain scenario
+  making the framework inextensible by adopter without having to write addtional protocol locally.
+  This library contains such protocol for immediate uses and other extension functions for easy uses.
                        DESC
 
   s.homepage         = 'https://github.com/myste1tainn/SwiftExpansion'
