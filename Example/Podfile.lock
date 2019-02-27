@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - SwiftExpansion (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (= 1.2)
+  - SwiftExpansion (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  SwiftExpansion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftExpansion: d2c1d28e135a7b5461f1eb9a1ab0ffbe8bbb78d6
+
+PODFILE CHECKSUM: a61143ccca23e19ef6f6a75033428f4125af53df
+
+COCOAPODS: 1.5.3
