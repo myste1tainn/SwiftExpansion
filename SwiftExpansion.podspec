@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
 
-  s.source_files = 'SwiftExpansion/Classes/**/*'
+  s.source_files = 'Sources/SwiftExpansion/**/*'
   
   # s.resource_bundles = {
   #   'SwiftExpansion' => ['SwiftExpansion/Assets/*.png']
