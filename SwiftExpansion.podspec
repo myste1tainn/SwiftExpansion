@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftExpansion'
-  s.version          = '0.2.2'
+  s.version          = '1.0.0'
   s.summary          = 'Various extension for swift foundation'
   s.description      = <<-DESC
   Swift Foundation is a powerful framework, but in itself is somewhat lacking in describing certain scenario
