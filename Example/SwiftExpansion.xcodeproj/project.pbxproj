@@ -289,21 +289,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExpansion_Example/Pods-SwiftExpansion_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftExpansion_Example/Pods-SwiftExpansion_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftExpansion/SwiftExpansion.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftExpansion.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExpansion_Example/Pods-SwiftExpansion_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExpansion_Example/Pods-SwiftExpansion_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD86347FA854D0A8305FBED9 /* [CP] Check Pods Manifest.lock */ = {
@@ -333,23 +329,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExpansion_Tests/Pods-SwiftExpansion_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftExpansion_Tests/Pods-SwiftExpansion_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftExpansion_Tests/Pods-SwiftExpansion_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftExpansion_Tests/Pods-SwiftExpansion_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
