@@ -24,4 +24,8 @@ extension Sequence {
   public func sliceGrouping<T: Equatable>(by keyPath: KeyPath<Element, T>) -> [[Element]] {
     return sliceGrouping { $0[keyPath: keyPath] == $1[keyPath: keyPath] }
   }
+  
+  public func sliceGrouping<T: Equatable>(by keyPath: KeyPath<Element, T?>) -> [[Element]] {
+    return sliceGrouping { $0[keyPath: keyPath] == $1[keyPath: keyPath] }
+  }
 }
