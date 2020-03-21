@@ -1,570 +1,690 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXAggregateTarget section */
-		"SwiftExpansion::SwiftExpansionPackageTests::ProductTarget" /* SwiftExpansionPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_36 /* Build configuration list for PBXAggregateTarget "SwiftExpansionPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_39 /* PBXTargetDependency */,
-			);
-			name = SwiftExpansionPackageTests;
-			productName = SwiftExpansionPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
-/* Begin PBXBuildFile section */
-		25499526C71F4F047B2A6E2E /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254996AF4C463ADA26AE5F7A /* Reusable.swift */; };
-		2549971AEA43034A84A2B0F3 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254995243B9D8C090D119982 /* OptionalType.swift */; };
-		254997B44564372594FD9410 /* Sequence+filterAgainst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254996B2FA63F9E097706D0F /* Sequence+filterAgainst.swift */; };
-		25499D4E6704BB33A21A3EA1 /* Optional+zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25499DCA74F6C0CA0F19A640 /* Optional+zip.swift */; };
-		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_45 /* SwiftExpansionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SwiftExpansionTests.swift */; };
-		OBJ_46 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* XCTestManifests.swift */; };
-		OBJ_48 /* SwiftExpansion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftExpansion::SwiftExpansion::Product" /* SwiftExpansion.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		254995243B9D8C090D119982 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
-		254996AF4C463ADA26AE5F7A /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		254996B2FA63F9E097706D0F /* Sequence+filterAgainst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+filterAgainst.swift"; sourceTree = "<group>"; };
-		25499DCA74F6C0CA0F19A640 /* Optional+zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+zip.swift"; sourceTree = "<group>"; };
-		OBJ_14 /* SwiftExpansionTests.swift */ = {isa = PBXFileReference; path = SwiftExpansionTests.swift; sourceTree = "<group>"; };
-		OBJ_15 /* XCTestManifests.swift */ = {isa = PBXFileReference; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_16 /* Example */ = {isa = PBXFileReference; path = Example; sourceTree = SOURCE_ROOT; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"SwiftExpansion::SwiftExpansion::Product" /* SwiftExpansion.framework */ = {isa = PBXFileReference; path = SwiftExpansion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftExpansion::SwiftExpansionTests::Product" /* SwiftExpansionTests.xctest */ = {isa = PBXFileReference; path = SwiftExpansionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		OBJ_28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-			);
-		};
-		OBJ_47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-				OBJ_48 /* SwiftExpansion.framework in Frameworks */,
-			);
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		2549999D5A21B8862001DA2B /* OptionalType Expansion */ = {
-			isa = PBXGroup;
-			children = (
-				25499DCA74F6C0CA0F19A640 /* Optional+zip.swift */,
-				254995243B9D8C090D119982 /* OptionalType.swift */,
-			);
-			path = "OptionalType Expansion";
-			sourceTree = "<group>";
-		};
-		254999B86FCEFDAACB445E46 /* Sequence Expansion */ = {
-			isa = PBXGroup;
-			children = (
-				254996B2FA63F9E097706D0F /* Sequence+filterAgainst.swift */,
-			);
-			path = "Sequence Expansion";
-			sourceTree = "<group>";
-		};
-		25499CBDFC03C9D41755045C /* Reusable Expansion */ = {
-			isa = PBXGroup;
-			children = (
-				254996AF4C463ADA26AE5F7A /* Reusable.swift */,
-			);
-			path = "Reusable Expansion";
-			sourceTree = "<group>";
-		};
-		OBJ_12 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_13 /* SwiftExpansionTests */,
-			);
-			name = Tests;
-			path = "";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_13 /* SwiftExpansionTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_14 /* SwiftExpansionTests.swift */,
-				OBJ_15 /* XCTestManifests.swift */,
-			);
-			name = SwiftExpansionTests;
-			path = Tests/SwiftExpansionTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_17 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"SwiftExpansion::SwiftExpansionTests::Product" /* SwiftExpansionTests.xctest */,
-				"SwiftExpansion::SwiftExpansion::Product" /* SwiftExpansion.framework */,
-			);
-			name = Products;
-			path = "";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 /*  */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_12 /* Tests */,
-				OBJ_16 /* Example */,
-				OBJ_17 /* Products */,
-			);
-			path = "";
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* SwiftExpansion */,
-			);
-			name = Sources;
-			path = "";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* SwiftExpansion */ = {
-			isa = PBXGroup;
-			children = (
-				254999B86FCEFDAACB445E46 /* Sequence Expansion */,
-				2549999D5A21B8862001DA2B /* OptionalType Expansion */,
-				25499CBDFC03C9D41755045C /* Reusable Expansion */,
-			);
-			name = SwiftExpansion;
-			path = Sources/SwiftExpansion;
-			sourceTree = SOURCE_ROOT;
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		"SwiftExpansion::SwiftExpansion" /* SwiftExpansion */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "SwiftExpansion" */;
-			buildPhases = (
-				OBJ_24 /* Sources */,
-				OBJ_28 /* Frameworks */,
-			);
-			dependencies = (
-			);
-			name = SwiftExpansion;
-			productName = SwiftExpansion;
-			productReference = "SwiftExpansion::SwiftExpansion::Product" /* SwiftExpansion.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"SwiftExpansion::SwiftExpansionTests" /* SwiftExpansionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_41 /* Build configuration list for PBXNativeTarget "SwiftExpansionTests" */;
-			buildPhases = (
-				OBJ_44 /* Sources */,
-				OBJ_47 /* Frameworks */,
-			);
-			dependencies = (
-				OBJ_49 /* PBXTargetDependency */,
-			);
-			name = SwiftExpansionTests;
-			productName = SwiftExpansionTests;
-			productReference = "SwiftExpansion::SwiftExpansionTests::Product" /* SwiftExpansionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		"SwiftExpansion::SwiftPMPackageDescription" /* SwiftExpansionPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "SwiftExpansionPackageDescription" */;
-			buildPhases = (
-				OBJ_33 /* Sources */,
-			);
-			dependencies = (
-			);
-			name = SwiftExpansionPackageDescription;
-			productName = SwiftExpansionPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		OBJ_1 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 9999;
-			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftExpansion" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_17 /* Products */;
-			projectDirPath = .;
-			targets = (
-				"SwiftExpansion::SwiftExpansion" /* SwiftExpansion */,
-				"SwiftExpansion::SwiftPMPackageDescription" /* SwiftExpansionPackageDescription */,
-				"SwiftExpansion::SwiftExpansionPackageTests::ProductTarget" /* SwiftExpansionPackageTests */,
-				"SwiftExpansion::SwiftExpansionTests" /* SwiftExpansionTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		OBJ_24 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				25499526C71F4F047B2A6E2E /* Reusable.swift in Sources */,
-				25499D4E6704BB33A21A3EA1 /* Optional+zip.swift in Sources */,
-				2549971AEA43034A84A2B0F3 /* OptionalType.swift in Sources */,
-				254997B44564372594FD9410 /* Sequence+filterAgainst.swift in Sources */,
-			);
-		};
-		OBJ_33 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_34 /* Package.swift in Sources */,
-			);
-		};
-		OBJ_44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-				OBJ_45 /* SwiftExpansionTests.swift in Sources */,
-				OBJ_46 /* XCTestManifests.swift in Sources */,
-			);
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		OBJ_39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftExpansion::SwiftExpansionTests" /* SwiftExpansionTests */;
-		};
-		OBJ_49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftExpansion::SwiftExpansion" /* SwiftExpansion */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		OBJ_22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftExpansion.xcodeproj/SwiftExpansion_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftExpansion;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-				);
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftExpansion;
-			};
-			name = Debug;
-		};
-		OBJ_23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftExpansion.xcodeproj/SwiftExpansion_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftExpansion;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-				);
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftExpansion;
-			};
-			name = Release;
-		};
-		OBJ_3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = (
-					"-DXcode",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = (
-					macosx,
-					iphoneos,
-					iphonesimulator,
-					appletvos,
-					appletvsimulator,
-					watchos,
-					watchsimulator,
-				);
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					SWIFT_PACKAGE,
-					DEBUG,
-				);
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				USE_HEADERMAP = NO;
-			};
-			name = Debug;
-		};
-		OBJ_31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = (
-					"-swift-version",
-					4.2,
-					"-I",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-					"-target",
-					"x86_64-apple-macosx10.10",
-					"-sdk",
-					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk,
-				);
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = (
-					"-swift-version",
-					4.2,
-					"-I",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-					"-target",
-					"x86_64-apple-macosx10.10",
-					"-sdk",
-					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk,
-				);
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		OBJ_37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_OPTIMIZATION_LEVEL = s;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_SWIFT_FLAGS = (
-					"-DXcode",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = (
-					macosx,
-					iphoneos,
-					iphonesimulator,
-					appletvos,
-					appletvsimulator,
-					watchos,
-					watchsimulator,
-				);
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					SWIFT_PACKAGE,
-				);
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-		OBJ_42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftExpansion.xcodeproj/SwiftExpansionTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-				);
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-				);
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftExpansionTests;
-			};
-			name = Debug;
-		};
-		OBJ_43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftExpansion.xcodeproj/SwiftExpansionTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@loader_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_CFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-				);
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-				);
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftExpansionTests;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		OBJ_2 /* Build configuration list for PBXProject "SwiftExpansion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_3 /* Debug */,
-				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_21 /* Build configuration list for PBXNativeTarget "SwiftExpansion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_22 /* Debug */,
-				OBJ_23 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_30 /* Build configuration list for PBXNativeTarget "SwiftExpansionPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_31 /* Debug */,
-				OBJ_32 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_36 /* Build configuration list for PBXAggregateTarget "SwiftExpansionPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_37 /* Debug */,
-				OBJ_38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_41 /* Build configuration list for PBXNativeTarget "SwiftExpansionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_42 /* Debug */,
-				OBJ_43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = OBJ_1 /* Project object */;
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_25";
+         projectDirPath = ".";
+         targets = (
+            "SwiftExpansion::SwiftExpansion",
+            "SwiftExpansion::SwiftPMPackageDescription",
+            "SwiftExpansion::SwiftExpansionPackageTests::ProductTarget",
+            "SwiftExpansion::SwiftExpansionTests"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "Optional+zip.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXFileReference";
+         path = "OptionalType.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13"
+         );
+         name = "Reusable Expansion";
+         path = "Reusable Expansion";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "Reusable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_15",
+            "OBJ_16",
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_19",
+            "OBJ_20"
+         );
+         name = "Sequence Expansion";
+         path = "Sequence Expansion";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "Sequence.divide.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXFileReference";
+         path = "Sequence.filterAgainst.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "Sequence.mapByKeyPath.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXFileReference";
+         path = "Sequence.mutableMap.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "Sequence.sliceGrouping.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "Sequence.sortedByKeypathAscending.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_21" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_22"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_22" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_23",
+            "OBJ_24"
+         );
+         name = "SwiftExpansionTests";
+         path = "Tests/SwiftExpansionTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "SwiftExpansionTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "XCTestManifests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXGroup";
+         children = (
+            "SwiftExpansion::SwiftExpansionTests::Product",
+            "SwiftExpansion::SwiftExpansion::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "Example";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_31" = {
+         isa = "PBXFileReference";
+         path = "SwiftExpansion.podspec";
+         sourceTree = "<group>";
+      };
+      "OBJ_33" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_34",
+            "OBJ_35"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_34" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftExpansion.xcodeproj/SwiftExpansion_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SwiftExpansion";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftExpansion";
+         };
+         name = "Debug";
+      };
+      "OBJ_35" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftExpansion.xcodeproj/SwiftExpansion_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "SwiftExpansion";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftExpansion";
+         };
+         name = "Release";
+      };
+      "OBJ_36" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44",
+            "OBJ_45"
+         );
+      };
+      "OBJ_37" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_38" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
+      };
+      "OBJ_39" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
+      };
+      "OBJ_41" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
+      };
+      "OBJ_42" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_43" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_18";
+      };
+      "OBJ_44" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_45" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_46" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_48" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_49",
+            "OBJ_50"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_49" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_21",
+            "OBJ_25",
+            "OBJ_28",
+            "OBJ_29",
+            "OBJ_30",
+            "OBJ_31"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_51" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_52"
+         );
+      };
+      "OBJ_52" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_54" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_55",
+            "OBJ_56"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_55" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_56" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_57" = {
+         isa = "PBXTargetDependency";
+         target = "SwiftExpansion::SwiftExpansionTests";
+      };
+      "OBJ_59" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_60",
+            "OBJ_61"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftExpansion.xcodeproj/SwiftExpansionTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftExpansionTests";
+         };
+         name = "Debug";
+      };
+      "OBJ_61" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "SwiftExpansion.xcodeproj/SwiftExpansionTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "SwiftExpansionTests";
+         };
+         name = "Release";
+      };
+      "OBJ_62" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_63",
+            "OBJ_64"
+         );
+      };
+      "OBJ_63" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_64" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_65" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_66"
+         );
+      };
+      "OBJ_66" = {
+         isa = "PBXBuildFile";
+         fileRef = "SwiftExpansion::SwiftExpansion::Product";
+      };
+      "OBJ_67" = {
+         isa = "PBXTargetDependency";
+         target = "SwiftExpansion::SwiftExpansion";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_12",
+            "OBJ_14"
+         );
+         name = "SwiftExpansion";
+         path = "Sources/SwiftExpansion";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_9" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_10",
+            "OBJ_11"
+         );
+         name = "OptionalType Expansion";
+         path = "OptionalType Expansion";
+         sourceTree = "<group>";
+      };
+      "SwiftExpansion::SwiftExpansion" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_33";
+         buildPhases = (
+            "OBJ_36",
+            "OBJ_46"
+         );
+         dependencies = (
+         );
+         name = "SwiftExpansion";
+         productName = "SwiftExpansion";
+         productReference = "SwiftExpansion::SwiftExpansion::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "SwiftExpansion::SwiftExpansion::Product" = {
+         isa = "PBXFileReference";
+         path = "SwiftExpansion.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SwiftExpansion::SwiftExpansionPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_54";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_57"
+         );
+         name = "SwiftExpansionPackageTests";
+         productName = "SwiftExpansionPackageTests";
+      };
+      "SwiftExpansion::SwiftExpansionTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_59";
+         buildPhases = (
+            "OBJ_62",
+            "OBJ_65"
+         );
+         dependencies = (
+            "OBJ_67"
+         );
+         name = "SwiftExpansionTests";
+         productName = "SwiftExpansionTests";
+         productReference = "SwiftExpansion::SwiftExpansionTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "SwiftExpansion::SwiftExpansionTests::Product" = {
+         isa = "PBXFileReference";
+         path = "SwiftExpansionTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "SwiftExpansion::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_48";
+         buildPhases = (
+            "OBJ_51"
+         );
+         dependencies = (
+         );
+         name = "SwiftExpansionPackageDescription";
+         productName = "SwiftExpansionPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+   };
+   rootObject = "OBJ_1";
 }
